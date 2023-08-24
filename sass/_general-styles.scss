@@ -6,7 +6,7 @@ body {
     color: var(--general-color);
 }
 .container {
-    max-width: 1645px;
+    max-width: 1920px;
     margin: 0 auto;
     padding-left: 138px;
     padding-right: 138px;
@@ -39,6 +39,8 @@ body {
     line-height: 1.5; /* 150% */
     color: var(--white-color);
     border: 2px solid var(--white-color);
+    background-color: inherit;
+    cursor: pointer;
 }
 .button-green {
     font-family: 'Rufina';
@@ -48,11 +50,34 @@ body {
     color: var(--white-color);
     border: 2px solid var(--black-color);
     background-color: var(--button-green-color);
+    cursor: pointer;
 }
 .hidden {
     overflow: hidden
 }
-
+@media screen and (max-width:1439.98px){
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .button-transparent {
+        font-size: 26px;
+    }
+}
+@media screen and (max-width:991.98px){
+    .button-transparent {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:767.98px){
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .button-transparent {
+        font-size: 16px;
+    }
+}
 // Плавний ховер
 // transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 // box-shadow: 0px 13px 19px rgba(0,0,0,.07);
