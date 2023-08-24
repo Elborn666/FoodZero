@@ -65,6 +65,9 @@ body {
     }
 }
 @media screen and (max-width:991.98px){
+    .middle-text {
+        font-size: 32px;
+    }
     .button-transparent {
         font-size: 20px;
     }
@@ -74,7 +77,15 @@ body {
         padding-left: 15px;
         padding-right: 15px;
     }
+    .middle-text {
+        font-size: 24px;
+    }
     .button-transparent {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:479.98px){
+    .middle-text {
         font-size: 16px;
     }
 }
