@@ -65,6 +65,9 @@ body {
     }
 }
 @media screen and (max-width:991.98px){
+    .subtitle {
+        font-size: 42px;
+    }
     .middle-text {
         font-size: 32px;
     }
@@ -73,9 +76,15 @@ body {
     }
 }
 @media screen and (max-width:767.98px){
+    body {
+        font-size: 18px;
+    }
     .container {
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .subtitle {
+        font-size: 32px;
     }
     .middle-text {
         font-size: 24px;
@@ -85,6 +94,9 @@ body {
     }
 }
 @media screen and (max-width:479.98px){
+    body {
+        font-size: 16px;
+    }
     .middle-text {
         font-size: 16px;
     }
