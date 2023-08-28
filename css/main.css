@@ -73,6 +73,9 @@ body {
   }
 }
 @media screen and (max-width: 991.98px) {
+  .title {
+    font-size: 54px;
+  }
   .subtitle {
     font-size: 42px;
   }
@@ -91,6 +94,9 @@ body {
     padding-left: 15px;
     padding-right: 15px;
   }
+  .title {
+    font-size: 42px;
+  }
   .subtitle {
     font-size: 32px;
   }
@@ -104,6 +110,9 @@ body {
 @media screen and (max-width: 479.98px) {
   body {
     font-size: 16px;
+  }
+  .title {
+    font-size: 36px;
   }
   .middle-text {
     font-size: 16px;
@@ -479,6 +488,132 @@ a {
   }
   .plan__text {
     margin-bottom: 0px;
+  }
+}
+.menu {
+  position: relative;
+}
+.menu::before {
+  content: "";
+  position: absolute;
+  display: block;
+  background-image: url("../img/main-menu/grass.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 880px;
+  height: 947px;
+  top: -25px;
+  right: 0px;
+  pointer-events: visible;
+}
+
+.menu__container {
+  padding-top: 184px;
+  padding-bottom: 218px;
+}
+
+.menu__body {
+  display: flex;
+}
+
+.menu__title {
+  position: relative;
+  z-index: 5;
+  margin-bottom: 18px;
+}
+
+.menu__subtitle {
+  position: relative;
+  z-index: 5;
+  margin-bottom: 158px;
+  max-width: 523px;
+}
+
+.menu__list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 60px;
+  row-gap: 108px;
+}
+
+.menu__wrapper-fillet,
+.menu__wrapper-cucumber,
+.menu__wrapper-steak,
+.menu__wrapper-wine {
+  width: 792px;
+}
+
+.menu__price {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 12px;
+}
+
+.line {
+  display: block;
+  max-width: 840px;
+  border-bottom: 4px dotted var(--black-color);
+}
+
+.menu__dish {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.menu__composition {
+  position: relative;
+  z-index: 5;
+}
+
+@media screen and (max-width: 991.98px) {
+  .menu__container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .menu__subtitle {
+    margin-bottom: 60px;
+  }
+  .menu__list {
+    row-gap: 50px;
+  }
+  .menu__wrapper-fillet,
+.menu__wrapper-cucumber,
+.menu__wrapper-steak,
+.menu__wrapper-wine {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .menu__container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .menu__subtitle {
+    margin-bottom: 20px;
+  }
+  .menu__list {
+    row-gap: 20px;
+  }
+  .menu__dish {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .menu__wrapper-fillet,
+.menu__wrapper-cucumber,
+.menu__wrapper-steak,
+.menu__wrapper-wine {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 479.98px) {
+  .menu__wrapper-fillet,
+.menu__wrapper-cucumber,
+.menu__wrapper-steak,
+.menu__wrapper-wine {
+    width: 290px;
   }
 }
 .swiper {
