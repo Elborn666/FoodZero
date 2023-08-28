@@ -1,0 +1,121 @@
+.cook {
+    background-color: var(--bg-color);
+}
+.cook__container {
+    padding-top: 222px;
+}
+.cook__body {
+    display: flex;
+}
+.cook__wrapper-img {
+    position: relative;
+    margin-right: 61px;
+    &::before {
+        content: "";
+        position: absolute;
+        background-image: url('../img/vector/leaf1.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        min-width: 456px;
+        height: 464px;
+        top: -140px;
+        left: -25px;
+    }
+}
+.cook__brown {
+    position: absolute;
+    z-index: 15;
+    bottom: 100px;
+    left: 25px;
+    max-width: 100%;
+    min-height: 80%;
+    object-fit: cover;
+}
+.cook__man {
+    position: relative;
+    z-index: 5;
+    max-height: 100%;
+    object-fit: cover;
+}
+.cook__content {
+}
+.cook__title {
+    margin-bottom: 18px;
+}
+.cook__subtitle {
+    color: var(--general-color);
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        background-image: url('../img/vector/leaf.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        min-width: 456px;
+        height: 464px;
+        bottom: -450px;
+        right: 0px;
+    }
+}
+@media screen and (max-width:1699.98px){
+    .cook__body {
+        flex-direction: column-reverse;
+    }
+    .cook__wrapper-img {
+        margin-right: 0px;
+    }
+    .cook__brown {
+        min-height: 86%;
+    }
+    .cook__content {
+        margin-bottom: 190px;
+    }
+}
+@media screen and (max-width:1199.98px){
+    .cook__man {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:991.98px){
+    .cook__container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .cook__subtitle {
+        &::after {
+            display: none;
+        }
+    }
+    .cook__wrapper-img {
+        &::before {
+            top: -230px;
+        }
+    }
+    .cook__man {
+        display: none;
+    }
+    .cook__brown {
+        position: relative;
+    }
+}
+@media screen and (max-width:767.98px){
+    .cook__container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .cook__brown {
+        left: 0px;
+    }
+}
+@media screen and (max-width:479.98px){
+    .cook__content {
+        margin-bottom: 100px;
+    }
+    .cook__wrapper-img {
+        &::before {
+            display: none;
+        }
+    }
+}
