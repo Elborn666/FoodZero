@@ -48,9 +48,13 @@ body {
     font-weight: 700;
     line-height: 1.5; /* 150% */
     color: var(--white-color);
-    border: 2px solid var(--black-color);
+    border: 2px solid var(--button-green-color);
     background-color: var(--button-green-color);
     cursor: pointer;
+}
+.line {
+    display: block;
+    border-bottom: 4px dotted var(--black-color);
 }
 .hidden {
     overflow: hidden
