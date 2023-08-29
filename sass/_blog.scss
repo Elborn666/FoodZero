@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    overflow: hidden;
 }
 .blog__img-wrapper {
     position: relative;
@@ -35,6 +36,10 @@
     max-height: 100%;
     object-fit: contain;
     display: block;
+    &:hover {
+        transition: transform 700ms cubic-bezier(0.4, 0, 0.2, 1);
+        transform: scale(1.05); 
+    }
 }
 .blog__thumb {
     display: flex;

@@ -307,6 +307,7 @@ a {
 .hero__scroll {
   color: var(--white-color);
   writing-mode: vertical-lr;
+  cursor: pointer;
 }
 
 .hero__wrapper-img {
@@ -763,6 +764,13 @@ a {
   row-gap: 39px;
   max-width: 509px;
   min-height: 470px;
+  padding: 30px 20px;
+  border-radius: 16px;
+  border: 1px solid var(--white-color);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.advatages__item:hover {
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.5);
 }
 
 .advantages__wrapper-icon {
@@ -831,6 +839,7 @@ a {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  overflow: hidden;
 }
 
 .blog__img-wrapper {
@@ -858,6 +867,10 @@ a {
   max-height: 100%;
   object-fit: contain;
   display: block;
+}
+.blog__img:hover {
+  transition: transform 700ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(1.05);
 }
 
 .blog__thumb {
@@ -1063,6 +1076,102 @@ a {
     width: 280px;
     height: 50px;
     padding: 10px 20px;
+  }
+}
+.calories__container {
+  padding-top: 128px;
+  padding-bottom: 138px;
+}
+
+.calories__body {
+  text-align: center;
+}
+
+.calories__title {
+  margin: 0 auto;
+  max-width: 1100px;
+  margin-bottom: 18px;
+}
+
+.calories__subtitle {
+  margin-bottom: 126px;
+}
+
+.calories__list {
+  display: flex;
+  column-gap: 60px;
+}
+
+.calories__item {
+  position: relative;
+  overflow: hidden;
+}
+
+.calories__img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  -webkit-filter: grayscale(70%);
+  filter: grayscale(70%);
+  transition: filter 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.calories__img:hover {
+  transition: transform 700ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(1.1);
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.calories__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.calories__label {
+  position: absolute;
+  top: 40px;
+  left: 48px;
+  color: var(--bg-footer-color);
+}
+
+.calories__icon {
+  position: absolute;
+  top: 40px;
+  right: 48px;
+  width: 48px;
+  height: 28px;
+}
+
+@media screen and (max-width: 1439.98px) {
+  .calories__icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .calories__container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .calories__subtitle {
+    margin-bottom: 60px;
+  }
+  .calories__list {
+    column-gap: 20px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .calories__container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .calories__subtitle {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 599.98px) {
+  .calories__list {
+    flex-direction: column;
+    row-gap: 20px;
   }
 }
 .swiper {
