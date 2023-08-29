@@ -7,7 +7,7 @@
 <path fill="#233000" style="fill: var(--color2, #233000)" d="M15.73 1.123l3.118 3.186-9.484 9.477h44.425v4.429h-44.425l9.482 9.479-3.115 3.184-14.873-14.878 14.873-14.878z"></path>
 </symbol>
 <symbol id="icon-arrow-right" viewBox="0 0 55 32">
-<path d="M38.916 1.122l-3.118 3.186 9.484 9.477h-44.425v4.429h44.425l-9.482 9.479 3.115 3.184 14.873-14.878-14.873-14.878z"></path>
+<path fill="#233000" style="fill: var(--color2, #233000)" d="M38.916 1.122l-3.118 3.186 9.484 9.477h-44.425v4.429h44.425l-9.482 9.479 3.115 3.184 14.873-14.878-14.873-14.878z"></path>
 </symbol>
 <symbol id="icon-burger" viewBox="0 0 42 32">
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.9014" d="M10.817 9.465h20.732"></path>
