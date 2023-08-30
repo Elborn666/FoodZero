@@ -724,6 +724,7 @@ a {
   }
   .cook__brown {
     position: relative;
+    bottom: 0px;
   }
 }
 @media screen and (max-width: 767.98px) {
@@ -737,10 +738,10 @@ a {
 }
 @media screen and (max-width: 479.98px) {
   .cook__content {
-    margin-bottom: 100px;
+    margin-bottom: 0px;
   }
   .cook__wrapper-img {
-    max-height: 675px;
+    max-height: 770px;
   }
   .cook__wrapper-img::before {
     display: none;
@@ -820,7 +821,7 @@ a {
     padding-bottom: 30px;
   }
   .advantages__list {
-    row-gap: 20px;
+    row-gap: 10px;
   }
   .advatages__item {
     min-height: 270px;
