@@ -45,8 +45,6 @@
     justify-content: center;
     row-gap: 58px;
 }
-.starters__wrapper-grilled {
-}
 .starters__price {
     display: flex;
     justify-content: flex-end;
@@ -54,12 +52,6 @@
 }
 .starters__dish {
     margin: 24px 0px;
-}
-.starters__composition {
-}
-.starters__wrapper-cucumber {
-}
-.starters__wrapper-basil {
 }
 @media screen and (max-width:1299.98px){
     .starters__img-wrapper {
@@ -107,6 +99,4 @@
     .starters__list {
         min-width: 100%;
     }
-}
-@media screen and (max-width:479.98px){
 }
