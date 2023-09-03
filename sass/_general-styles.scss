@@ -11,6 +11,13 @@ body {
     padding-left: 138px;
     padding-right: 138px;
 }
+.general-title  {
+    font-family: "Rufina";
+    font-size: 148px;
+    font-weight: 700;
+    line-height: 1.02; /* 102.703% */
+    color: var(--white-color);
+}
 .title {
     font-family: 'Rufina';
     font-size: 108px;
@@ -31,6 +38,13 @@ body {
     font-weight: 700;
     line-height: 1.3; /* 133.333% */
     color: var(--black-color);
+}
+.general-text {
+    font-family: "Rufina";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.5; /* 150% */
+    color: var(--white-color);
 }
 .button-transparent {
     font-family: 'Rufina';
@@ -59,16 +73,27 @@ body {
 .hidden {
     overflow: hidden
 }
+@media screen and (max-width:1579.98px){
+    .general-title {
+        font-size: 120px;
+    }
+}
 @media screen and (max-width:1439.98px){
     .container {
         padding-left: 40px;
         padding-right: 40px;
+    }
+    .general-title {
+        font-size: 98px;
     }
     .button-transparent {
         font-size: 26px;
     }
 }
 @media screen and (max-width:991.98px){
+    .general-title {
+        font-size: 56px;
+    }
     .title {
         font-size: 54px;
     }
@@ -81,6 +106,9 @@ body {
     .button-transparent {
         font-size: 20px;
     }
+    .general-text {
+        font-size: 24px;
+    }
 }
 @media screen and (max-width:767.98px){
     body {
@@ -89,6 +117,9 @@ body {
     .container {
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .general-title {
+        font-size: 32px;
     }
     .title {
         font-size: 42px;
@@ -101,6 +132,9 @@ body {
     }
     .button-transparent {
         font-size: 16px;
+    }
+    .general-text {
+        font-size: 18px;
     }
 }
 @media screen and (max-width:479.98px){

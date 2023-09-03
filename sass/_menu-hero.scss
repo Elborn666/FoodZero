@@ -1,0 +1,28 @@
+.hero__menu {
+    position: relative;
+    margin-top: -210px;
+}
+.hero__menu-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.hero__container {
+}
+.hero__body {
+    position: absolute;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.hero__menu-title {
+    margin-bottom: 50px;
+    max-width: 779px;
+}
+.hero__menu-subtitle {
+}
+@media screen and (max-width:1199.98px){
+    .hero__body {
+        top: 200px;
+    }
+}
