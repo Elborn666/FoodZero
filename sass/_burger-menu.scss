@@ -104,6 +104,12 @@
 .active__burger {
     display: block;
 }
+@media screen and (max-width:1439.98px){
+    .burger__body {
+        left: 0px;
+
+    }
+}
 @media screen and (max-width:479.98px){
     .burrger__wrapper-list {
         flex-direction: column;
