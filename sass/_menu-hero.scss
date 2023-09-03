@@ -1,18 +1,12 @@
 .hero__menu {
-    margin-bottom: -220px;
-    background-image: url('../img/menu-hero/hero.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin: 0 auto;
-    max-width: 1920px;
-    height: 1080px;
 }
 .hero__container-menu {
 }
 .hero__body-menu {
     display: flex;
     flex-direction: column;
+    padding-top: 350px;
+    padding-bottom: 328px;
 }
 .hero__menu-title {
     margin-bottom: 50px;
@@ -21,7 +15,4 @@
 .hero__menu-subtitle {
 }
 @media screen and (max-width:1199.98px){
-    .hero__body {
-        top: 200px;
-    }
 }
