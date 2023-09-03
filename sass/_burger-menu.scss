@@ -1,18 +1,19 @@
 .burger__menu {
     display: none;
+    margin: 0 auto;
 }
 .burger__body {
     position: fixed;
     top: 0px;
-    left: 100px;
+    // left: 100px;
     z-index: 20;
     width: 100%;
     height: 100%;
-    object-fit: contain;
     overflow: auto;
 
     background-image: url('../img/burger/burger.png');
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .burger-icon-close {
     margin-top: 34px;
