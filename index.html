@@ -42,7 +42,7 @@
                     </div>
                     <div class="burrger__wrapper-list">
                         <ul class="burger__list">
-                            <li class="burger__item-nav"><a href="#" class="burger__link subtitle">Home</a></li>
+                            <li class="burger__item-nav"><a href="./index.html" class="burger__link subtitle">Home</a></li>
                             <li class="burger__item-nav"><a href="#" class="burger__link subtitle">Menu</a></li>
                             <li class="burger__item-nav"><a href="#" class="burger__link subtitle">Blogs</a></li>
                             <li class="burger__item-nav"><a href="#" class="burger__link subtitle">About</a></li>
@@ -318,7 +318,7 @@
                                 <option value="2">8 Person</option>
                             </select>
                         </div>
-                        <button class="reserv__button button-green">Book Now</button>
+                        <button type="submit" class="reserv__button button-green">Book Now</button>
                     </form>
                 </div>
             </div>
@@ -414,8 +414,8 @@
                     </div>
                     <form class="contact__form">
                         <h2 class="contact__title">Never Miss a Recipe</h2>
-                        <input type="email" required placeholder="Email Address" class="contact__input">
-                        <button class="contact__button button-green">Subscribe</button>
+                        <input type="email" required pattern="/^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/" placeholder="Email Address" class="contact__input">
+                        <button type="submit" class="contact__button button-green">Subscribe</button>
                         <p class="contact__subscribe">Join our subscribers and get best recipe delivered each week!</p>
                     </form>
                 </div>
@@ -465,7 +465,21 @@
         <div class="modal__window">
             <div class="modal__window-container">
                 <div class="modal__window-body">
+                    <h2 class="modal__title subtitle">Thank you!</h2>
+                    <p class="modal__text">Table registration was successful.</p>
+                    <button class="modal-button button-green">Ok</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="backdrop__subscribe">
+        <div class="modal__window-subscribe">
+            <div class="modal__container-subscribe">
+                <div class="modal__body-subscribe">
+                    <h2 class="modal__title subtitle">Successfully!</h2>
+                    <p class="modal__text">You have successfully subscribed.</p>
+                    <button class="modal__button-subscribe button-green">Ok</button>
                 </div>
             </div>
         </div>
@@ -474,6 +488,9 @@
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> SLIDER -->
     <script type="module" src="./js/burger-menu.js"></script>
+    <script type="module" src="./js/reservation.js"></script>
+    <script type="module"  src="./js/subscribe.js"></script>
+
 </body>
 
 </html>
