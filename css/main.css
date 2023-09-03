@@ -1943,6 +1943,114 @@ a {
     min-width: 100%;
   }
 }
+.drink__container {
+  padding-top: 187px;
+  padding-bottom: 208px;
+}
+
+.drink__body {
+  position: relative;
+  text-align: center;
+}
+.drink__body::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -117px;
+  right: 36%;
+  background-image: url("../img/vector/avocado.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 348px;
+  height: 415px;
+}
+
+.drink__title {
+  margin-bottom: 18px;
+}
+
+.drink__text {
+  margin-bottom: 159px;
+}
+
+.drink__block {
+  display: flex;
+}
+
+.drink__img-wrapper {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.drink__img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.drink__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 58px;
+}
+
+.drink__price {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 12px;
+}
+
+.drink__dish {
+  margin: 24px 0px;
+}
+
+@media screen and (max-width: 1299.98px) {
+  .drink__img-wrapper {
+    margin-right: 40px;
+  }
+  .drink__list {
+    row-gap: 20px;
+  }
+  .drink__dish {
+    margin: 10px 0px;
+  }
+  .drink__price {
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .drink__body::after {
+    display: none;
+  }
+  .drink__container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .drink__text {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .drink__container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .drink__img-wrapper {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .drink__text {
+    margin-bottom: 20px;
+  }
+  .drink__block {
+    flex-direction: column;
+  }
+  .drink__list {
+    min-width: 100%;
+  }
+}
 .swiper {
   width: 600px;
   height: 300px;
