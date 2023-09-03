@@ -350,6 +350,9 @@ a {
   }
 }
 @media screen and (max-width: 1439.98px) {
+  .burger__body {
+    left: 0px;
+  }
   .hero__title {
     font-size: 98px;
   }
