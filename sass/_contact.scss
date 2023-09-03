@@ -13,6 +13,12 @@
 .contact__log {
     color: var(--white-color);
 }
+.contact__wrapper-block {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 20px;
+}
 .contact__title-contact {
     margin-bottom: 55px;
 
@@ -22,13 +28,7 @@
     line-height: 1.5; /* 150% */
     color: var(--white-color);
 }
-.contact__list {
-    display: flex;
-    flex-direction: column;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-.contact__item:nth-child(3){
+.contact__item:nth-child(2){
     margin-bottom: 28px;
 }
 .contact__tell {
@@ -36,18 +36,27 @@
     line-height: 1.3; /* 138.889% */
     letter-spacing: 0.36px;
     color: var(--white-color);
+    &:hover{
+        text-decoration: underline;
+    }
 }
 .contact__email {
     font-size: 18px;
     line-height: 1.3; /* 138.889% */
     letter-spacing: 0.36px;
     color: var(--white-color);
+    &:hover{
+        text-decoration: underline;
+    }
 }
 .contact__adrress {
     font-size: 18px;
     line-height: 1.3; /* 138.889% */
     letter-spacing: 0.36px;
     color: var(--white-color);
+    &:hover{
+        text-decoration: underline;
+    }
 }
 .contact__title {
     margin-bottom: 55px;
