@@ -24,7 +24,7 @@
                         <use href="./icon/sprite.svg#icon-logo"></use>
                     </svg>
                 </a>
-                <div class="header__burger-icon">
+                <div class="header__burger-icon icon-menu">
                     <svg class="burger-icon">
                         <use href="./icon/sprite.svg#icon-burger"></use>
                     </svg>
@@ -102,14 +102,14 @@
         </div>
     </header>
     <main>
-        <!-- <section class="hero__menu">
+        <section class="hero__menu">
             <div class="hero__container-menu container">
                 <div class="hero__body-menu">
                     <h1 class="hero__menu-title general-title">View Our New Menu</h1>
                     <p class="hero__menu-subtitle general-text">The freshest ingredients for you every day</p>
                 </div>
             </div>
-        </section> -->
+        </section>
         <section class="starters">
             <div class="starters__container container">
                 <div class="starters__body">
@@ -328,7 +328,33 @@
         </div>
     </footer>
 
+    <div class="backdrop">
+        <div class="modal__window">
+            <div class="modal__window-container">
+                <div class="modal__window-body">
+                    <h2 class="modal__title subtitle">Thank you!</h2>
+                    <p class="modal__text">Table registration was successful.</p>
+                    <button class="modal-button button-green">Ok</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="backdrop__subscribe">
+        <div class="modal__window-subscribe">
+            <div class="modal__container-subscribe">
+                <div class="modal__body-subscribe">
+                    <h2 class="modal__title subtitle">Successfully!</h2>
+                    <p class="modal__text">You have successfully subscribed.</p>
+                    <button class="modal__button-subscribe button-green">Ok</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script type="module" src="./js/burger-menu.js"></script>
+    <script type="module" src="./js/reservation.js"></script>
+    <script type="module" src="./js/subscribe.js"></script>
 </body>
 
 </html>

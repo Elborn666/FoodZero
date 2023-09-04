@@ -78,6 +78,12 @@ body {
     .general-title {
         font-size: 120px;
     }
+    .title {
+        font-size: 88px;
+    }
+    .subtitle {
+        font-size: 58px;
+    }
 }
 @media screen and (max-width:1439.98px){
     .container {
@@ -86,6 +92,12 @@ body {
     }
     .general-title {
         font-size: 98px;
+    }
+    .title {
+        font-size: 68px;
+    }
+    .subtitle {
+        font-size: 48px;
     }
     .button-transparent {
         font-size: 26px;
@@ -96,10 +108,10 @@ body {
         font-size: 56px;
     }
     .title {
-        font-size: 54px;
+        font-size: 48px;
     }
     .subtitle {
-        font-size: 42px;
+        font-size: 38px;
     }
     .middle-text {
         font-size: 32px;
@@ -120,13 +132,13 @@ body {
         padding-right: 15px;
     }
     .general-title {
-        font-size: 32px;
+        font-size: 36px;
     }
     .title {
-        font-size: 42px;
+        font-size: 40px;
     }
     .subtitle {
-        font-size: 32px;
+        font-size: 30px;
     }
     .middle-text {
         font-size: 24px;
@@ -143,10 +155,13 @@ body {
         font-size: 16px;
     }
     .title {
-        font-size: 36px;
+        font-size: 28px;
+    }
+    .subtitle {
+        font-size: 22px;
     }
     .middle-text {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 // Плавний ховер
