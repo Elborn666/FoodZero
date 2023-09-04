@@ -53,6 +53,18 @@
 .starters__dish {
     margin: 24px 0px;
 }
+.starters__wrapper-grilled{
+    opacity: 0;
+    transition: all 2.5s ease 0.5s;
+}
+.starters__wrapper-cucumber {
+    opacity: 0;
+    transition: all 2.5s ease 1s;
+}
+.starters__wrapper-basil {
+    opacity: 0;
+    transition: all 2.5s ease 1.5s;
+}
 @media screen and (max-width:1299.98px){
     .starters__img-wrapper {
         margin-right: 40px;
@@ -99,4 +111,8 @@
     .starters__list {
         min-width: 100%;
     }
+}
+
+.active {
+    opacity: 1;
 }

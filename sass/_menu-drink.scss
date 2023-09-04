@@ -51,6 +51,18 @@
 .drink__dish {
     margin: 24px 0px;
 }
+.drink__wrapper-wine{
+    opacity: 0;
+    transition: all 2.5s ease 0.5s;
+}
+.drink__wrapper-natural {
+    opacity: 0;
+    transition: all 2.5s ease 1s;
+}
+.drink__wrapper-whisky {
+    opacity: 0;
+    transition: all 2.5s ease 1.5s;
+}
 @media screen and (max-width:1299.98px){
     .drink__img-wrapper {
         margin-right: 40px;
@@ -97,4 +109,8 @@
     .drink__list {
         min-width: 100%;
     }
+}
+
+.active {
+    opacity: 1;
 }

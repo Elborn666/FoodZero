@@ -41,3 +41,7 @@ if (animItems.length > 0) {
 // .active {
 //     opacity: 1;
 // }
+
+
+// Додати в HTML
+// _anim-items _anim-no-hide

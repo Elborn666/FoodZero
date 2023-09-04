@@ -39,6 +39,18 @@
 .main__dish {
     margin: 24px 0px;
 }
+.main__wrapper-fillet{
+    opacity: 0;
+    transition: all 2.5s ease 0.5s;
+}
+.main__wrapper-steak {
+    opacity: 0;
+    transition: all 2.5s ease 1s;
+}
+.main__wrapper-griled {
+    opacity: 0;
+    transition: all 2.5s ease 1.5s;
+}
 @media screen and (max-width:1299.98px){
     .main__img-wrapper {
         margin-left: 40px;
@@ -80,4 +92,8 @@
     .main__list {
         min-width: 100%;
     }
+}
+
+.active {
+    opacity: 1;
 }
