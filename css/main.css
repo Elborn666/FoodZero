@@ -1848,12 +1848,12 @@ a {
 
 .starters__wrapper-cucumber {
   opacity: 0;
-  transition: all 2.5s ease 1s;
+  transition: all 2.5s ease 0.5s;
 }
 
 .starters__wrapper-basil {
   opacity: 0;
-  transition: all 2.5s ease 1.5s;
+  transition: all 2.5s ease 0.5s;
 }
 
 @media screen and (max-width: 1299.98px) {
@@ -1963,12 +1963,12 @@ a {
 
 .main__wrapper-steak {
   opacity: 0;
-  transition: all 2.5s ease 1s;
+  transition: all 2.5s ease 0.5s;
 }
 
 .main__wrapper-griled {
   opacity: 0;
-  transition: all 2.5s ease 1.5s;
+  transition: all 2.5s ease 0.5s;
 }
 
 @media screen and (max-width: 1299.98px) {
@@ -2087,12 +2087,12 @@ a {
 
 .drink__wrapper-natural {
   opacity: 0;
-  transition: all 2.5s ease 1s;
+  transition: all 2.5s ease 0.5s;
 }
 
 .drink__wrapper-whisky {
   opacity: 0;
-  transition: all 2.5s ease 1.5s;
+  transition: all 2.5s ease 0.5s;
 }
 
 @media screen and (max-width: 1299.98px) {

@@ -57,11 +57,11 @@
 }
 .drink__wrapper-natural {
     opacity: 0;
-    transition: all 2.5s ease 1s;
+    transition: all 2.5s ease 0.5s;
 }
 .drink__wrapper-whisky {
     opacity: 0;
-    transition: all 2.5s ease 1.5s;
+    transition: all 2.5s ease 0.5s;
 }
 @media screen and (max-width:1299.98px){
     .drink__img-wrapper {
