@@ -1,0 +1,80 @@
+.makereserv {
+    background-color: var(--bg-color);
+}
+.makereserv__container {
+    padding-top: 214px;
+    padding-bottom: 174px;
+}
+.makereserv__body {
+    text-align: center;
+}
+.makereserv__title {
+    position: relative;
+    margin-bottom: 18px;
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: -158px;
+        left: 5px;
+        background-image: url('../img/vector/mint.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 511px;
+        height: 346px;
+    }
+}
+.makereserv__subtitle {
+    margin-bottom: 116px;
+}
+.makereserv__form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.makereserv__fname,
+.makereserv__lname,
+.makereserv__email,
+.makereserv__phone,
+.makereserv__date,
+.makereserv__time,
+.makereserv__person {
+    padding: 20px 30px;
+    background-color: inherit;
+    border: 2px solid var(--black-color);
+    &::placeholder {
+        color: var(--black-color);
+    }
+}
+.makereserv__button {
+    padding: 20px 46px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+        background-color: inherit;
+        color: var(--button-green-color);
+    }
+}
+@media screen and (max-width:991.98px){
+    .makereserv__container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .makereserv__title {
+        &::before {
+            display: none;
+        }
+    }
+    .makereserv__subtitle {
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width:767.98px){
+    .makereserv__container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .makereserv__button {
+        width: 100%;
+        padding: 15px 30px;
+    }
+}

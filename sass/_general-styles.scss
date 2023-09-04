@@ -67,9 +67,13 @@ body {
     background-color: var(--button-green-color);
     cursor: pointer;
 }
-.line {
+.line-black {
     display: block;
     border-bottom: 4px dotted var(--black-color);
+}
+.line-white {
+    display: block;
+    border-bottom: 4px dotted var(--white-color);
 }
 .hidden {
     overflow: hidden
@@ -102,6 +106,9 @@ body {
     .button-transparent {
         font-size: 26px;
     }
+    .button-green {
+        font-size: 26px;
+    }
 }
 @media screen and (max-width:991.98px){
     .general-title {
@@ -117,6 +124,9 @@ body {
         font-size: 32px;
     }
     .button-transparent {
+        font-size: 20px;
+    }
+    .button-green {
         font-size: 20px;
     }
     .general-text {
@@ -144,6 +154,9 @@ body {
         font-size: 24px;
     }
     .button-transparent {
+        font-size: 16px;
+    }
+    .button-green {
         font-size: 16px;
     }
     .general-text {
