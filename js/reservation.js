@@ -1,6 +1,6 @@
 const backdrop = document.querySelector('.backdrop')
 const body = document.querySelector('body')
-const subscribeForm = document.querySelector('.reserv__form')
+const subscribeForm = document.querySelector('.form')
 const buttonCloseModal = document.querySelector('.modal-button')
 
 
