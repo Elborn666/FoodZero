@@ -2203,13 +2203,9 @@ a {
 @media screen and (max-width: 991.98px) {
   .contact__body-hero {
     padding-top: 250px;
-    padding-bottom: 220px;
   }
 }
 @media screen and (max-width: 767.98px) {
-  .contact__body-hero {
-    padding-bottom: 120px;
-  }
   .contact__title-wrapper {
     margin-bottom: 40px;
   }
