@@ -29,8 +29,8 @@
     -webkit-filter: grayscale(70%); 
     filter: grayscale(70%); 
     transition: filter 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 700ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover {
-        transition: transform 700ms cubic-bezier(0.4, 0, 0.2, 1);
         transform: scale(1.1);
         -webkit-filter: grayscale(0%); 
         filter: grayscale(0%);  
