@@ -36,6 +36,9 @@
     object-fit: contain;
 }
 @media screen and (max-width:1299.98px){
+    .story__wrapper-title {
+        max-width: 40%;
+    }
     .story__wrapper-img {
         margin-left: 40px;
     }
@@ -61,6 +64,9 @@
     }
     .story__body {
        flex-direction: column;
+    }
+    .story__wrapper-title {
+        max-width: 100%;
     }
     .story__wrapper-img {
         margin-left: 0px;
