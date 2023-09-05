@@ -1,7 +1,3 @@
-.video {
-}
-.video__container {
-}
 .video__body {
     position: relative;
     text-align: center;
@@ -13,8 +9,6 @@
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     width: 100%;
-
-//    display: none;
 }
 .video__title {
     margin-bottom: 18px;
@@ -33,23 +27,6 @@
     &:hover {
         background-color: rgba(0, 0, 0, 0.7);
     }
-}
-.video__wrapper {
-    position: relative;
-    // &::before{
-    //     content: "";
-    //     display: block;
-    //     z-index: 20;
-    //     position: absolute;
-    //     top: 0px;
-    //     left: 0px; 
-    //     background-image: url('../img/who-story/video.png');
-    //     background-size: cover;
-    //     background-repeat: no-repeat;
-    //     width: 100%;
-    //     height: 100%;
-    //     // display: none;
-    // }
 }
 .video__img {
     position: absolute;
