@@ -105,10 +105,137 @@
     </header>
 
     <main>
-        <section class="hero__blog">
-            <div class="hero__container-blog container">
-                <div class="hero__body-blog">
-                    <h1 class="hero__blog-title general-title _anim-items _anim-no-hide">Portfolio</h1>
+        <section class="hero__portfolio">
+            <div class="hero__container-portfolio container">
+                <div class="hero__body-portfolio">
+                    <h1 class="hero__portfolio-title general-title _anim-items _anim-no-hide">Portfolio</h1>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio__main">
+            <div class="portfolio__container container">
+                <div class="portfolio__body">
+                    <ul class="portfolio__list-button">
+                        <li class="portfolio__item">
+                            <button type="button" class="portfolio__button">All</button>
+                        </li>
+                        <li class="portfolio__item">
+                            <button type="button" class="portfolio__button">Starter</button>
+                        </li>
+                        <li class="portfolio__item">
+                            <button type="button" class="portfolio__button">Launch</button>
+                        </li>
+                        <li class="portfolio__item">
+                            <button type="button" class="portfolio__button">Dinner</button>
+                        </li>
+                        <li class="portfolio__item">
+                            <button type="button" class="portfolio__button">Drinks</button>
+                        </li>
+                        <li class="portfolio__item">
+                            <button type="button" class="portfolio__button">Sweets</button>
+                        </li>
+                        <li class="portfolio__item">
+                            <button type="button" class="portfolio__button">Fruits</button>
+                        </li>
+                    </ul>
+                    <ul class="portfolio__list-img">
+                        <li class="portfolio__item-img big-img">
+                            <img src="./img/portfolio-list/fish.png" alt="fish" class="portfolio__img">
+                            <div class="portfolio__wrapper">
+                                <h2 class="portfolio__title middle-text">Premium Deep Sea Snow White Cod Fillet</h2>
+                                <div class="portfolio__wrapper-meal">
+                                    <p class="portfolio__name-meal">Launch</p>
+                                    <span class="point"></span>
+                                    <p class="portfolio__name-meal">Dinner</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="portfolio__item-img">
+                            <img src="./img/portfolio-list/wine.png" alt="wine" class="portfolio__img">
+                            <div class="portfolio__wrapper-small">
+                                <h2 class="portfolio__title middle-text">Option of natural wine available</h2>
+                                <div class="portfolio__wrapper-meal">
+                                    <p class="portfolio__name-meal">Drink</p>
+                                    <span class="point"></span>
+                                    <p class="portfolio__name-meal">Fruits</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="portfolio__item-img">
+                            <img src="./img/portfolio-list/soup.png" alt="soup" class="portfolio__img">
+                            <div class="portfolio__wrapper-small">
+                                <h2 class="portfolio__title middle-text">Best pumpkin for pumpkin soup</h2>
+                                <div class="portfolio__wrapper-meal">
+                                    <p class="portfolio__name-meal">Launch</p>
+                                    <span class="point"></span>
+                                    <p class="portfolio__name-meal">Starters</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="portfolio__item-img big-img">
+                            <img src="./img/portfolio-list/meat.png" alt="meat" class="portfolio__img">
+                            <div class="portfolio__wrapper">
+                                <h2 class="portfolio__title middle-text">Strip Steak With Rosemary Butter</h2>
+                                <div class="portfolio__wrapper-meal">
+                                    <p class="portfolio__name-meal">Launch</p>
+                                    <span class="point"></span>
+                                    <p class="portfolio__name-meal">Dinner</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="portfolio__item-img middle">
+                            <img src="./img/portfolio-list/seafood.png" alt="seafood" class="portfolio__img">
+                            <div class="portfolio__wrapper">
+                                <h2 class="portfolio__title middle-text">Braised Sliced Abalone,Fish Maw with Premium Seafood</h2>
+                                <div class="portfolio__wrapper-meal">
+                                    <p class="portfolio__name-meal">Cold Dishes</p>
+                                    <span class="point"></span>
+                                    <p class="portfolio__name-meal">Starters</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="portfolio__item-img middle">
+                            <img src="./img/portfolio-list/sauce.png" alt="sauce" class="portfolio__img">
+                            <div class="portfolio__wrapper">
+                                <h2 class="portfolio__title middle-text">Pan Fried Live Prawn with Superior Soy Sauce</h2>
+                                <div class="portfolio__wrapper-meal">
+                                    <p class="portfolio__name-meal">Starters</p>
+                                    <span class="point"></span>
+                                    <p class="portfolio__name-meal">Dinner</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="contact__container container">
+                <div class="contact__body">
+                    <a href="#" class="contact__log subtitle">Food <br> Zero.</a>
+                    <div class="contact__wrapper-block">
+                        <h2 class="contact__title-contact">Contact</h2>
+                        <ul class="contact__list">
+                            <li class="contact__item">
+                                <a href="tel:+186852346000" class="contact__tell">+1+86 852 346 000</a>
+                            </li>
+                            <li class="contact__item">
+                                <a href="mailto:info@foodzero.com" class="contact__email">info@foodzero.com</a>
+                            </li>
+                            <li class="contact__item">
+                                <a href="https://goo.gl/maps/85uQHCjxmoPaGxqc9" target="_blank"
+                                    class="contact__adrress">1959 Sepulveda Blvd. <br> Culver City, CA, 90230</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="contact__form">
+                        <h2 class="contact__title">Never Miss a Recipe</h2>
+                        <input type="email" required
+                            pattern="/^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/"
+                            placeholder="Email Address" class="contact__input">
+                        <button type="submit" class="contact__button button-green">Subscribe</button>
+                        <p class="contact__subscribe">Join our subscribers and get best recipe delivered each week!</p>
+                    </form>
                 </div>
             </div>
         </section>
