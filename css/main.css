@@ -3147,6 +3147,51 @@ a {
     font-size: 24px;
   }
 }
+.hero__blog {
+  margin-top: -215px;
+  background-image: url("../img/blog-hero/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.hero__body-blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 368px;
+  padding-bottom: 296px;
+}
+
+.hero__blog-title {
+  margin-bottom: 32px;
+  max-width: 1304px;
+}
+
+@media screen and (max-width: 991.98px) {
+  .hero__body-blog {
+    padding-top: 250px;
+    padding-bottom: 220px;
+  }
+  .hero__blog-title {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .hero__body-blog {
+    padding-bottom: 120px;
+  }
+}
+@media screen and (max-width: 479.98px) {
+  .hero__body-blog {
+    text-align: center;
+  }
+}
+.active {
+  opacity: 1;
+}
+
 .swiper {
   width: 600px;
   height: 300px;
