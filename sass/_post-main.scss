@@ -1,5 +1,3 @@
-.post__main {
-}
 .post__container {
     padding-top: 128px;
     padding-bottom: 128px;
@@ -19,11 +17,34 @@
 }
 .post__img-meat,
 .post__img-spices {
-    width: 650px;
-    height: 726px;
-    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-.post__text {
+.post__wrapper-image {
+    position: relative;
+}
+.post__img-bg {
+    width: 100%;
+    height: 534px;
+    object-fit: cover;
+}
+.post__wrapper-text {
+    display: flex;
+    justify-content: center;
+}
+.post__text-bg {
+    position: absolute;
+    top: 173px;
+    max-width: 992px;
+    padding: 0px 15px;
+
+    font-family: "Lato";
+    font-size: 38px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.4; /* 53.2px */
+    color: var(--white-color);
 }
 .post__tag {
     display: flex;
@@ -49,8 +70,6 @@
         color: var(--white-color);
     }
 }
-.post__text-tag {
-}
 .post__user {
     display: flex;
     justify-content: center;
@@ -61,12 +80,60 @@
     width: 220px;
     height: 220px;
 }
-.post__wrapper-user {
-}
 .post__user-name {
     margin-bottom: 28px;
     color: var(--black-color);
 }
 .post__user-comment {
     max-width: 795px;
+}
+@media screen and (max-width:1439.98px){
+    .post__wrapper-img {
+        flex-direction: column;
+    }
+    .post__img-meat,
+    .post__img-spices {
+        transform: rotate(270deg);
+    }
+}
+@media screen and (max-width:991.98px){
+    .post__container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .post__body {
+        row-gap: 40px;
+    }
+    .post__list {
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .post__text-bg {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width:767.98px){
+    .post__container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .post__body {
+        row-gap: 20px;
+    }
+    .post__text-bg {
+        font-size: 22px;
+    }
+    .post__user {
+        column-gap: 20px;
+    }
+    .post__user-name {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:479.98px){
+    .post__user-avatar {
+        width: 90px;
+        height: 90px;
+    }
 }
