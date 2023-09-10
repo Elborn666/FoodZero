@@ -1,18 +1,17 @@
-.blog__container {
+.blog__main-container {
     padding-top: 130px;
     padding-bottom: 105px;
 }
-.blog__list {
-    display: flex;
-    flex-wrap: wrap;
-   justify-content: center;
+.blog__main-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     column-gap: 60px;
     row-gap: 120px;
 }
-.blog__item {
+.blog__main-item {
     display: flex;
     flex-direction: column;
-    max-width: 772px;
     border: 1px solid var(--white-color);
     border-radius: 12px;
     transition: box-shadow 350ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -124,44 +123,32 @@
     color: var(--black-color);
     border: 2px solid var(--black-color);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover {
+    &:hover{
         background-color: var(--span-color);
         border: 2px solid var(--span-color);
         color: var(--white-color);
     }
 }
-@media screen and (max-width:1879.98px){
-    .blog__item {
-        max-width: 600px;
-    }
-}
-@media screen and (max-width:1539.98px){
-    .blog__list {
-        row-gap: 30px;
-    }
-    .blog__item {
-        max-width: 500px;
-    }
-}
 @media screen and (max-width:1199.98px){
-    .blog__item {
-        max-width: 400px;
-    }
     .blog__thumb {
         padding: 0px 30px;
     }
+    .blog__main-list {
+        column-gap: 30px;
+        row-gap: 60px;
+    }
 }
 @media screen and (max-width:991.98px){
-    .blog__container {
+    .blog__main-container {
         padding-top: 60px;
         padding-bottom: 60px;
     }
-    .blog__list {
+    .blog__main-list {
+        display: flex;
         flex-direction: column;
-        row-gap: 20px;
     }
-    .blog__item {
-        max-width: 792px;
+    .blog__main-item {
+        width: 100%;
     }
     .blog__thumb {
         margin-top: 40px;
@@ -175,9 +162,13 @@
     }
 }
 @media screen and (max-width:767.98px){
-    .blog__container {
+    .blog__main-container {
         padding-top: 30px;
         padding-bottom: 30px;
+    }
+    .blog__main-list {
+        column-gap: 20px;
+        row-gap: 20px;
     }
     .blog__thumb {
         margin-top: 20px;
@@ -203,7 +194,7 @@
         display: none;
     }
     .blog__name,
-    .blog__date {
+    .blog__date{
         font-size: 14px;
     }
     .blog__button-load {
