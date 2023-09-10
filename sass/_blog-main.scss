@@ -117,7 +117,7 @@
 .blog__wrapper-button {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .blog__button-load {
     padding: 10px 40px;
@@ -188,6 +188,9 @@
             width: 25px;
             height: 15px;
         }
+    }
+    .blog__wrapper-button {
+        margin-top: 20px;
     }
     .blog__button {
         font-size: 18px;
