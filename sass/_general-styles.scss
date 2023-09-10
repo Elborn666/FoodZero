@@ -75,6 +75,10 @@ body {
     display: block;
     border-bottom: 4px dotted var(--white-color);
 }
+.text {
+    max-width: 1076px;
+    margin: 0 auto;
+}
 .hidden {
     overflow: hidden
 }

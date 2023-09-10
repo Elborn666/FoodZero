@@ -1,0 +1,72 @@
+.post__main {
+}
+.post__container {
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.post__body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 106px;
+}
+.post__title {
+    color: var(--general-color);
+}
+.post__wrapper-img {
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+}
+.post__img-meat,
+.post__img-spices {
+    width: 650px;
+    height: 726px;
+    object-fit: contain;
+}
+.post__text {
+}
+.post__tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 18px;
+}
+.post__title-tag {
+    color: var(--black-color);
+}
+.post__list {
+    display: flex;
+    column-gap: 18px;
+}
+.post__item {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid var(--black-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    &:hover {
+        background-color: var(--span-color);
+        color: var(--white-color);
+    }
+}
+.post__text-tag {
+}
+.post__user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+}
+.post__user-avatar {
+    width: 220px;
+    height: 220px;
+}
+.post__wrapper-user {
+}
+.post__user-name {
+    margin-bottom: 28px;
+    color: var(--black-color);
+}
+.post__user-comment {
+    max-width: 795px;
+}

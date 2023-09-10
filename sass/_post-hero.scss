@@ -29,19 +29,16 @@
     display: flex;
     flex-direction: column;
     max-height: 100%;
-    margin-top: 68px;
-    margin-bottom: 87px;
     padding: 0px 75px;
 }
 .post__wrapper {
     display: flex;
     align-items: center;
     column-gap: 14px;
-    margin-bottom: 48px;
 }
 .post__avatar {
-    width: 60px;
-    height: 60px;
+    width: 96px;
+    height: 96px;
 }
 .post__name,
 .post__date,
@@ -64,30 +61,31 @@
     }
     .hero__post-title {
         margin-bottom: 20px;
-    }
-    .post__thumb {
-        margin-top: 40px;
-        margin-bottom: 30px;
-    }
-    .post__wrapper {
-        margin-bottom: 20px;
+        font-size: 68px;
     }
 }
 @media screen and (max-width:767.98px){
     .hero__body-post {
         padding-bottom: 120px;
     }
-    .post__thumb {
-        margin-top: 20px;
+    .hero__post-title {
+        font-size: 48px;
     }
 }
 @media screen and (max-width:479.98px){
     .hero__body-post {
         text-align: center;
     }
+    .hero__post-title {
+        font-size: 28px;
+    }
     .post__time,
     .post__comments {
         display: none;
+    }
+    .post__name,
+    .post__date {
+        font-size: 14px;
     }
 }
 .active {
