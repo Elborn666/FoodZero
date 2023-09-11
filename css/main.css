@@ -3925,6 +3925,8 @@ a {
   margin-bottom: 32px;
   color: var(--white-color);
   text-align: center;
+  opacity: 0;
+  transition: all 2.5s ease 0.5s;
 }
 
 .post__thumb {
@@ -3932,6 +3934,8 @@ a {
   flex-direction: column;
   max-height: 100%;
   padding: 0px 75px;
+  opacity: 0;
+  transition: all 2.5s ease 1s;
 }
 
 .post__wrapper {
@@ -4222,7 +4226,7 @@ a {
 
 .portfoliopage__body-melt {
   position: relative;
-  z-index: 50;
+  z-index: 5;
   display: flex;
   justify-content: space-around;
 }
@@ -4247,7 +4251,7 @@ a {
 
 .portfoliopage__body-taste {
   position: relative;
-  z-index: 10;
+  z-index: 3;
   margin-top: -180px;
 }
 
