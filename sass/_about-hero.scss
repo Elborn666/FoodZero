@@ -16,13 +16,13 @@
 .hero__about-title {
     margin-bottom: 50px;
     max-width: 915px;
-    // opacity: 0;
-    // transition: all 2.5s ease 0.5s;
+    opacity: 0;
+    transition: all 2.5s ease 0.5s;
 }
 .hero__about-subtitle {
     max-width: 870px;
-    // opacity: 0;
-    // transition: all 2.5s ease 1s;
+    opacity: 0;
+    transition: all 2.5s ease 1s;
 }
 @media screen and (max-width:991.98px){
     .hero__body-about {

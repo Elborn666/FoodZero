@@ -2637,10 +2637,14 @@ a {
 .hero__about-title {
   margin-bottom: 50px;
   max-width: 915px;
+  opacity: 0;
+  transition: all 2.5s ease 0.5s;
 }
 
 .hero__about-subtitle {
   max-width: 870px;
+  opacity: 0;
+  transition: all 2.5s ease 1s;
 }
 
 @media screen and (max-width: 991.98px) {
@@ -2685,6 +2689,13 @@ a {
 
 .story__title {
   margin-bottom: 18px;
+  opacity: 0;
+  transition: all 2.5s ease 0.5s;
+}
+
+.story__subtitle {
+  opacity: 0;
+  transition: all 2.5s ease 1s;
 }
 
 .story__wrapper-img {
@@ -2710,6 +2721,11 @@ a {
   object-fit: contain;
 }
 
+@media screen and (max-width: 1439.98px) {
+  .story__container {
+    padding-top: 120px;
+  }
+}
 @media screen and (max-width: 1299.98px) {
   .story__wrapper-title {
     max-width: 40%;
@@ -2746,6 +2762,10 @@ a {
     margin-top: 20px;
   }
 }
+.active {
+  opacity: 1;
+}
+
 .staff__container {
   padding-bottom: 200px;
 }
@@ -2765,6 +2785,13 @@ a {
 .manager__title {
   max-width: 644px;
   margin: 0 auto;
+  opacity: 0;
+  transition: all 2.5s ease 0.5s;
+}
+
+.manager__name {
+  opacity: 0;
+  transition: all 2.5s ease 0.75s;
 }
 
 .manager__img {
@@ -2776,6 +2803,8 @@ a {
 .manager__text {
   margin-top: 155px;
   max-width: 510px;
+  opacity: 0;
+  transition: all 2.5s ease 1s;
 }
 
 @media screen and (max-width: 1399.98px) {
@@ -2841,6 +2870,13 @@ a {
 
 .chef__title {
   max-width: 644px;
+  opacity: 0;
+  transition: all 2.5s ease 1.25s;
+}
+
+.chef__name {
+  opacity: 0;
+  transition: all 2.5s ease 1.5s;
 }
 
 .chef__img {
@@ -2851,8 +2887,15 @@ a {
 
 .chef__text {
   max-width: 510px;
+  opacity: 0;
+  transition: all 2.5s ease 1.5s;
 }
 
+@media screen and (max-width: 1439.98px) {
+  .staff__container {
+    padding-bottom: 120px;
+  }
+}
 @media screen and (max-width: 1299.98px) {
   .chef__body {
     flex-direction: row-reverse;
@@ -2883,6 +2926,10 @@ a {
     max-width: 100%;
   }
 }
+.active {
+  opacity: 1;
+}
+
 .video__body {
   position: relative;
   text-align: center;
@@ -2992,6 +3039,13 @@ a {
   font-weight: 700;
   line-height: 1.05; /* 105.6px */
   color: var(--black-color);
+  opacity: 0;
+  transition: all 2.5s ease 0.5s;
+}
+
+.process__slice-text {
+  opacity: 0;
+  transition: all 2.5s ease 1s;
 }
 
 @media screen and (max-width: 1579.98px) {
@@ -3000,6 +3054,9 @@ a {
   }
 }
 @media screen and (max-width: 1439.98px) {
+  .process__title {
+    margin-bottom: 120px;
+  }
   .process__slice-title {
     font-size: 58px;
   }
@@ -3091,6 +3148,13 @@ a {
   font-weight: 700;
   line-height: 1.05; /* 105.6px */
   color: var(--black-color);
+  opacity: 0;
+  transition: all 2.5s ease 0.5s;
+}
+
+.process__pickled-text {
+  opacity: 0;
+  transition: all 2.5s ease 1s;
 }
 
 @media screen and (max-width: 1579.98px) {
@@ -3186,6 +3250,13 @@ a {
   font-weight: 700;
   line-height: 1.05; /* 105.6px */
   color: var(--black-color);
+  opacity: 0;
+  transition: all 2.5s ease 0.5s;
+}
+
+.process__bake-text {
+  opacity: 0;
+  transition: all 2.5s ease 1s;
 }
 
 @media screen and (max-width: 1579.98px) {
@@ -3197,6 +3268,10 @@ a {
   }
 }
 @media screen and (max-width: 1439.98px) {
+  .process__container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   .process__body-bake {
     margin-top: -550px;
   }
@@ -3241,6 +3316,10 @@ a {
     font-size: 24px;
   }
 }
+.active {
+  opacity: 1;
+}
+
 .hero__blog {
   margin-top: -215px;
   background-image: url("../img/blog-hero/hero.png");

@@ -14,6 +14,13 @@
 .manager__title {
     max-width: 644px;
     margin: 0 auto;
+
+    opacity: 0;
+    transition: all 2.5s ease 0.5s;
+}
+.manager__name {
+    opacity: 0;
+    transition: all 2.5s ease 0.75s;
 }
 .manager__img {
     width: 100%;
@@ -23,6 +30,9 @@
 .manager__text {
     margin-top: 155px;
     max-width: 510px;
+
+    opacity: 0;
+    transition: all 2.5s ease 1s;
 }
 @media screen and (max-width:1399.98px){
     .manager__text {
@@ -86,6 +96,13 @@
 }
 .chef__title {
     max-width: 644px;
+
+    opacity: 0;
+    transition: all 2.5s ease 1.25s;
+}
+.chef__name {
+    opacity: 0;
+    transition: all 2.5s ease 1.5s;
 }
 .chef__img {
     width: 100%;
@@ -94,6 +111,14 @@
 }
 .chef__text {
     max-width: 510px;
+    
+    opacity: 0;
+    transition: all 2.5s ease 1.5s;
+}
+@media screen and (max-width:1439.98px){
+    .staff__container {
+        padding-bottom: 120px;
+    }
 }
 @media screen and (max-width:1299.98px){
     .chef__body {
@@ -124,4 +149,8 @@
         margin-top: 20px;
         max-width: 100%;
     }
+}
+
+.active {
+    opacity: 1;
 }

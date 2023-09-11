@@ -13,6 +13,13 @@
 }
 .story__title {
     margin-bottom: 18px;
+
+    opacity: 0;
+    transition: all 2.5s ease 0.5s;
+}
+.story__subtitle {
+    opacity: 0;
+    transition: all 2.5s ease 1s;
 }
 .story__wrapper-img {
     position: relative;
@@ -34,6 +41,11 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+@media screen and (max-width:1439.98px){
+    .story__container {
+        padding-top: 120px;
+    }
 }
 @media screen and (max-width:1299.98px){
     .story__wrapper-title {
@@ -72,4 +84,8 @@
         margin-left: 0px;
         margin-top: 20px;
     }
+}
+
+.active {
+    opacity: 1;
 }
