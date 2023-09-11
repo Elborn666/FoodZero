@@ -1949,6 +1949,12 @@ a {
   transition: all 2.5s ease 0.5s;
 }
 
+@media screen and (max-width: 1439.98px) {
+  .starters__container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
 @media screen and (max-width: 1299.98px) {
   .starters__img-wrapper {
     margin-right: 40px;
@@ -2064,6 +2070,12 @@ a {
   transition: all 2.5s ease 0.5s;
 }
 
+@media screen and (max-width: 1439.98px) {
+  .main__container {
+    padding-top: 82px;
+    padding-bottom: 120px;
+  }
+}
 @media screen and (max-width: 1299.98px) {
   .main__img-wrapper {
     margin-left: 40px;
@@ -2188,6 +2200,12 @@ a {
   transition: all 2.5s ease 0.5s;
 }
 
+@media screen and (max-width: 1439.98px) {
+  .drink__container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
 @media screen and (max-width: 1299.98px) {
   .drink__img-wrapper {
     margin-right: 40px;
