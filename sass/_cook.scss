@@ -40,10 +40,16 @@
 }
 .cook__title {
     margin-bottom: 18px;
+
+    opacity: 0;
+    transition: all 2.5s ease 0.5s;
 }
 .cook__subtitle {
     color: var(--general-color);
     position: relative;
+
+    opacity: 0;
+    transition: all 2.5s ease 1s;
     &::after {
         content: "";
         position: absolute;
@@ -69,6 +75,11 @@
     }
     .cook__content {
         margin-bottom: 190px;
+    }
+}
+@media screen and (max-width:1439.98px){
+    .cook__container {
+        padding-top: 120px;
     }
 }
 @media screen and (max-width:1199.98px){
@@ -118,4 +129,7 @@
             display: none;
         }
     }
+}
+.active {
+    opacity: 1;
 }

@@ -110,6 +110,11 @@
         text-decoration: underline;
     }
 }
+@media screen and (max-width:1439.98px){
+    .blog__container {
+        padding-top: 120px;
+    }
+}
 @media screen and (max-width:1199.98px){
     .blog__thumb {
         padding: 0px 30px;

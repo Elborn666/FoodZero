@@ -38,6 +38,12 @@
 .advantages__text {
     color: var(--general-color);
 }
+@media screen and (max-width:1439.98px){
+    .advantagas__container {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+}
 @media screen and (max-width:1199.98px){
     .advantages__icon {
         width: 220px;

@@ -23,10 +23,16 @@
     max-width: 493px;
     color: var(--white-color);
     margin-bottom: 54px;
+
+    opacity: 0;
+    transition: all 2.5s ease 0.5s;
 }
 .plan__subtitle {
     max-width: 565px;
     color: var(--white-color);
+
+    opacity: 0;
+    transition: all 2.5s ease 1s;
 } 
 .plan__rightpart {
     display: flex;
@@ -40,6 +46,9 @@
 .plan__text {
     margin-bottom: 84px;
     color: var(--white-color);
+
+    opacity: 0;
+    transition: all 2.5s ease 1.5s;
 }
 @media screen and (max-width:1799.98px){
     .plan__leftpart {
@@ -52,6 +61,10 @@
     }
 }
 @media screen and (max-width:1439.98px){
+    .plan__container {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
     .plan__leftpart {
         margin-right: 80px;
         row-gap: 20px;
@@ -100,4 +113,8 @@
     .plan__text {
         margin-bottom: 0px;
     }
+}
+
+.active {
+    opacity: 1;
 }

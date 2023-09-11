@@ -54,6 +54,10 @@
     height: 28px;
 }
 @media screen and (max-width:1439.98px){
+    .calories__container {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
     .calories__icon {
         display: none;
     }
