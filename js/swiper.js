@@ -10,17 +10,13 @@ const swiper = new Swiper('.swiper', {
   
     // Navigation arrows
     navigation: {
-      nextEl: '.swiper-button-forward',
-      prevEl: '.swiper-button-back',
+      nextEl: '.right',
+      prevEl: '.left',
     },
 
     // // If we need pagination
     pagination: {
-      el: '.swiper-pagination',
-    },
-
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
+      el: '.reviews__count',
+      type: "fraction",
     },
   });
