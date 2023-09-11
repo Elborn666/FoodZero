@@ -129,6 +129,12 @@
         color: var(--white-color);
     }
 }
+@media screen and (max-width:1439.98px){
+    .blog__main-container {
+        padding-top: 120px;
+        padding-bottom: 105px;
+    }
+}
 @media screen and (max-width:1199.98px){
     .blog__thumb {
         padding: 0px 30px;
