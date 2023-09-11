@@ -20,6 +20,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: block;
 }
 .post__wrapper-image {
     position: relative;
@@ -90,10 +91,7 @@
 @media screen and (max-width:1439.98px){
     .post__wrapper-img {
         flex-direction: column;
-    }
-    .post__img-meat,
-    .post__img-spices {
-        transform: rotate(270deg);
+        gap: 20px;
     }
 }
 @media screen and (max-width:991.98px){
