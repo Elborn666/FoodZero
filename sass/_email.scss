@@ -46,6 +46,12 @@
         text-decoration: underline;
     }
 }
+@media screen and (max-width:1439.98px){
+    .email__container {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+}
 @media screen and (max-width:1299.98px){
     .email__wrapper-img {
         margin-right: 80px;

@@ -54,6 +54,12 @@
         color: var(--button-green-color);
     }
 }
+@media screen and (max-width:1439.98px){
+    .makereserv__container {
+        padding-top: 160px;
+        padding-bottom: 120px;
+    }
+}
 @media screen and (max-width:991.98px){
     .makereserv__container {
         padding-top: 60px;
