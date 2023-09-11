@@ -16,12 +16,8 @@
 .hero__portfolio-title {
     margin-bottom: 32px;
     max-width: 1304px;
-    // opacity: 0;
-    // transition: all 2.5s ease 0.5s;
-}
-.hero__portfolio-subtitle {
-    // opacity: 0;
-    // transition: all 2.5s ease 1s;
+    opacity: 0;
+    transition: all 2.5s ease 0.5s;
 }
 @media screen and (max-width:991.98px){
     .hero__body-portfolio {

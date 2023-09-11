@@ -17,6 +17,9 @@
     max-width: 1304px;
     text-align: center;
     color: var(--white-color);
+    
+    opacity: 0;
+    transition: all 2.5s ease 0.5s;
 }
 .active {
     opacity: 1;
