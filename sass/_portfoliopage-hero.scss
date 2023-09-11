@@ -1,0 +1,23 @@
+.hero__portfoliopage {
+    margin-top: -215px;
+    background-image: url('../img/deep-hero/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.hero__body-portfoliopage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 356px;
+    padding-bottom: 330px;
+}
+.hero__portfoliopage-title {
+    max-width: 1304px;
+    text-align: center;
+    color: var(--white-color);
+}
+.active {
+    opacity: 1;
+}
