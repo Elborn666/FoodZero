@@ -55,15 +55,7 @@
         align-self: center;
     }
 }
-@media screen and (max-width:991.98px){
-    .staff__container {
-        padding-bottom: 60px;
-    }
-}
 @media screen and (max-width:767.98px){
-    .staff__container {
-        padding-bottom: 30px;
-    }
     .manager__body {
         flex-direction: column;
     }
@@ -134,7 +126,15 @@
         align-self: center;
     }
 }
+@media screen and (max-width:991.98px){
+    .staff__container {
+        padding-bottom: 60px;
+    }
+}
 @media screen and (max-width:767.98px){
+    .staff__container {
+        padding-bottom: 30px;
+    }
     .chef__body {
        flex-direction: column;
         margin-top: 20px;
