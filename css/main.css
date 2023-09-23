@@ -2984,6 +2984,12 @@ a {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+.video__wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
 .video__img {
   position: absolute;
   z-index: 5;
